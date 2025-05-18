@@ -1,0 +1,14 @@
+# Step 1: Set the time zone to Eastern Time
+Set-TimeZone -Id "Eastern Standard Time"
+
+# Step 2: Configure Google's NTP server as the time source
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\w32time\Parameters" -Name "NtpServer" -Value "time.google.com,0x8"
+
+# Step 3: Change the synchronization type to NTP
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\w32time\Parameters" -Name "Type" -Value "NTP"
+
+# Step 4: Restart the Windows Time service to apply changes
+Restart-Service w32Time
+
+# Step 5: Force a time synchronization
+w32tm /resync /force
