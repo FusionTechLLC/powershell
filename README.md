@@ -1,2 +1,0 @@
-# powershell
-working powershell scripts
