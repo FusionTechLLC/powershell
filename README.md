@@ -1,4 +1,4 @@
-Welcome to this repository-a curated collection of fully tested and operational PowerShell scripts. This project is dedicated to providing both fun and practical scripts for system administrators, engineers, and anyone interested in automating tasks or exploring the power of PowerShell.
+Welcome to the FusionTech LLC Repo - a curated collection of fully tested and operational PowerShell scripts. This project is dedicated to providing both fun and practical scripts for system administrators, engineers, and anyone interested in automating tasks or exploring the power of PowerShell.
 
 About
 This repository features a diverse range of PowerShell scripts:
