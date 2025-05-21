@@ -29,3 +29,5 @@ Run scripts in your PowerShell environment, customizing as needed for your use c
 
 Contributing
 Contributions are welcome! If you have a useful or interesting PowerShell script, feel free to submit a pull request.
+no systems are harmed in the making of this repo
+
